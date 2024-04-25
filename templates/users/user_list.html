@@ -1,0 +1,11 @@
+<h1>Barcha foydalanuvchilar shu yerda</h1>
+{% for user in object_list %}
+
+<ul>
+    <li>Name: {{user.name}}</li>
+    <li>Surname: {{user.surname}}</li>
+    <li>Year: {{user.year}}</li>
+    <li>Address: {{user.address}}</li>
+</ul>
+
+{% endfor %}
